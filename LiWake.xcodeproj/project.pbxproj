@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F61369772CD5BE4C0042A0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F613695E2CD5BE4B0042A0A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61369652CD5BE4B0042A0A4;
+			remoteInfo = LiWake;
+		};
+		F61369812CD5BE4C0042A0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F613695E2CD5BE4B0042A0A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61369652CD5BE4B0042A0A4;
+			remoteInfo = LiWake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F61369662CD5BE4B0042A0A4 /* LiWake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiWake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61369762CD5BE4C0042A0A4 /* LiWakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiWakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61369802CD5BE4C0042A0A4 /* LiWakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiWakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F61369682CD5BE4B0042A0A4 /* LiWake */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiWake;
+			sourceTree = "<group>";
+		};
+		F61369792CD5BE4C0042A0A4 /* LiWakeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiWakeTests;
+			sourceTree = "<group>";
+		};
+		F61369832CD5BE4C0042A0A4 /* LiWakeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LiWakeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F61369632CD5BE4B0042A0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61369732CD5BE4C0042A0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F613697D2CD5BE4C0042A0A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F613695D2CD5BE4B0042A0A4 = {
+			isa = PBXGroup;
+			children = (
+				F61369682CD5BE4B0042A0A4 /* LiWake */,
+				F61369792CD5BE4C0042A0A4 /* LiWakeTests */,
+				F61369832CD5BE4C0042A0A4 /* LiWakeUITests */,
+				F61369672CD5BE4B0042A0A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F61369672CD5BE4B0042A0A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F61369662CD5BE4B0042A0A4 /* LiWake.app */,
+				F61369762CD5BE4C0042A0A4 /* LiWakeTests.xctest */,
+				F61369802CD5BE4C0042A0A4 /* LiWakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F61369652CD5BE4B0042A0A4 /* LiWake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F613698A2CD5BE4C0042A0A4 /* Build configuration list for PBXNativeTarget "LiWake" */;
+			buildPhases = (
+				F61369622CD5BE4B0042A0A4 /* Sources */,
+				F61369632CD5BE4B0042A0A4 /* Frameworks */,
+				F61369642CD5BE4B0042A0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F61369682CD5BE4B0042A0A4 /* LiWake */,
+			);
+			name = LiWake;
+			packageProductDependencies = (
+			);
+			productName = LiWake;
+			productReference = F61369662CD5BE4B0042A0A4 /* LiWake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F61369752CD5BE4C0042A0A4 /* LiWakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F613698D2CD5BE4C0042A0A4 /* Build configuration list for PBXNativeTarget "LiWakeTests" */;
+			buildPhases = (
+				F61369722CD5BE4C0042A0A4 /* Sources */,
+				F61369732CD5BE4C0042A0A4 /* Frameworks */,
+				F61369742CD5BE4C0042A0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61369782CD5BE4C0042A0A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F61369792CD5BE4C0042A0A4 /* LiWakeTests */,
+			);
+			name = LiWakeTests;
+			packageProductDependencies = (
+			);
+			productName = LiWakeTests;
+			productReference = F61369762CD5BE4C0042A0A4 /* LiWakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F613697F2CD5BE4C0042A0A4 /* LiWakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61369902CD5BE4C0042A0A4 /* Build configuration list for PBXNativeTarget "LiWakeUITests" */;
+			buildPhases = (
+				F613697C2CD5BE4C0042A0A4 /* Sources */,
+				F613697D2CD5BE4C0042A0A4 /* Frameworks */,
+				F613697E2CD5BE4C0042A0A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61369822CD5BE4C0042A0A4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F61369832CD5BE4C0042A0A4 /* LiWakeUITests */,
+			);
+			name = LiWakeUITests;
+			packageProductDependencies = (
+			);
+			productName = LiWakeUITests;
+			productReference = F61369802CD5BE4C0042A0A4 /* LiWakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F613695E2CD5BE4B0042A0A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F61369652CD5BE4B0042A0A4 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F61369752CD5BE4C0042A0A4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F61369652CD5BE4B0042A0A4;
+					};
+					F613697F2CD5BE4C0042A0A4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F61369652CD5BE4B0042A0A4;
+					};
+				};
+			};
+			buildConfigurationList = F61369612CD5BE4B0042A0A4 /* Build configuration list for PBXProject "LiWake" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F613695D2CD5BE4B0042A0A4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F61369672CD5BE4B0042A0A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F61369652CD5BE4B0042A0A4 /* LiWake */,
+				F61369752CD5BE4C0042A0A4 /* LiWakeTests */,
+				F613697F2CD5BE4C0042A0A4 /* LiWakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F61369642CD5BE4B0042A0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61369742CD5BE4C0042A0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F613697E2CD5BE4C0042A0A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F61369622CD5BE4B0042A0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61369722CD5BE4C0042A0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F613697C2CD5BE4C0042A0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F61369782CD5BE4C0042A0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61369652CD5BE4B0042A0A4 /* LiWake */;
+			targetProxy = F61369772CD5BE4C0042A0A4 /* PBXContainerItemProxy */;
+		};
+		F61369822CD5BE4C0042A0A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61369652CD5BE4B0042A0A4 /* LiWake */;
+			targetProxy = F61369812CD5BE4C0042A0A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F61369882CD5BE4C0042A0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F61369892CD5BE4C0042A0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F613698B2CD5BE4C0042A0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiWake/Preview Content\"";
+				DEVELOPMENT_TEAM = 24T84N3MAY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinnie.LiWake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F613698C2CD5BE4C0042A0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiWake/Preview Content\"";
+				DEVELOPMENT_TEAM = 24T84N3MAY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinnie.LiWake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F613698E2CD5BE4C0042A0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T84N3MAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinnie.LiWakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiWake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiWake";
+			};
+			name = Debug;
+		};
+		F613698F2CD5BE4C0042A0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T84N3MAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinnie.LiWakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiWake.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiWake";
+			};
+			name = Release;
+		};
+		F61369912CD5BE4C0042A0A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T84N3MAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinnie.LiWakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiWake;
+			};
+			name = Debug;
+		};
+		F61369922CD5BE4C0042A0A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24T84N3MAY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinnie.LiWakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiWake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F61369612CD5BE4B0042A0A4 /* Build configuration list for PBXProject "LiWake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61369882CD5BE4C0042A0A4 /* Debug */,
+				F61369892CD5BE4C0042A0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F613698A2CD5BE4C0042A0A4 /* Build configuration list for PBXNativeTarget "LiWake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F613698B2CD5BE4C0042A0A4 /* Debug */,
+				F613698C2CD5BE4C0042A0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F613698D2CD5BE4C0042A0A4 /* Build configuration list for PBXNativeTarget "LiWakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F613698E2CD5BE4C0042A0A4 /* Debug */,
+				F613698F2CD5BE4C0042A0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61369902CD5BE4C0042A0A4 /* Build configuration list for PBXNativeTarget "LiWakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61369912CD5BE4C0042A0A4 /* Debug */,
+				F61369922CD5BE4C0042A0A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F613695E2CD5BE4B0042A0A4 /* Project object */;
+}

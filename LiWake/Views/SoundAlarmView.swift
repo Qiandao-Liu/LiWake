@@ -1,5 +1,5 @@
 //
-//  AboutView.swift
+//  Untitled.swift
 //  LiWake
 //
 //  Created by Qiandao Liu on 11/2/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AboutView: View {
+struct SoundAlarmView: View {
     var body: some View {
 
         
@@ -22,5 +22,5 @@ struct AboutView: View {
 }
 
 #Preview(traits: .landscapeRight) {
-    AboutView()
+    SoundAlarmView()
 }

@@ -39,10 +39,10 @@ class LiDARDetection: NSObject, ARSessionDelegate {
     }
     
     var orientation: UIInterfaceOrientation {
-        guard let orientation = UIApplication.shared.windows.first?.windowScene?.interfaceOrientation else {
+        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else {
             return .portrait
         }
-        return orientation
+        return windowScene.interfaceOrientation
     }
     
     func getCurrentDepthImage() -> UIImage? {

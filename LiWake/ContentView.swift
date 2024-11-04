@@ -162,7 +162,7 @@ struct ContentView: View {
                 }
                 .background(selectedMode == .sound ? Color(Color.ownOffWhiteTran) : Color(Color.ownWhite))
                 .navigationDestination(isPresented: $isSleeping) {
-                    SleepingView()
+                    DepthInstructionView()
                 }
             }
         }

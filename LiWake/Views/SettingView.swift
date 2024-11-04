@@ -22,5 +22,5 @@ struct SettingView: View {
 }
 
 #Preview(traits: .landscapeRight) {
-    ContentView()
+    SettingView()
 }

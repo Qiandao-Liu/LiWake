@@ -45,7 +45,7 @@ struct DepthInstructionView: View {
                     .position(x: width * 0.9, y: height * 0.9) // 按钮位于右下角
                 }
                 .navigationDestination(isPresented: $navigateToDetection) {
-                    DetectionView()
+                    DetectionViewWrapper()
                 }
             }
         }

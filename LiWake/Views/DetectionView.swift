@@ -9,8 +9,13 @@ import SwiftUI
 import RealityKit
 
 struct DetectionView: UIViewControllerRepresentable {
+    @Binding var isReady: Bool
+    
     func makeUIViewController(context: Context) -> DetectionViewController {
         let controller = DetectionViewController()
+//        controller.onReady = {
+//            isReady = true
+//        }
         return controller
     }
 
@@ -44,6 +49,43 @@ class DetectionViewController: UIViewController {
     }
 }
 
+struct DetectionViewWrapper: View {
+    @State private var isReady = false
+
+    var body: some View {
+        NavigationStack {
+            GeometryReader { geometry in
+                let width = geometry.size.width
+                let height = geometry.size.height
+
+                ZStack {
+                    DetectionView(isReady: $isReady)
+                        .edgesIgnoringSafeArea(.all) // 全屏显示深度图
+
+                    // “放好了”按钮
+                    if !isReady {
+                        Button(action: {
+                            isReady = true
+                        }) {
+                            Text("放好了")
+                                .font(.headline)
+                                .padding()
+                                .frame(width: width * 0.1)
+                                .background(Color.blue)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                        }
+                        .position(x: width * 0.9, y: height * 0.9) // 右下角
+                    }
+                }
+            }
+        }
+        .navigationDestination(isPresented: $isReady) {
+            NightmodeView()
+        }
+    }
+}
+
 #Preview(traits: .landscapeRight) {
-    DetectionView()
+    DetectionViewWrapper()
 }
